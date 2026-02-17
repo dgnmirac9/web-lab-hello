@@ -23,3 +23,6 @@
 23 npm run dev
 24 ```
 25 Tarayicida http://localhost:5173 adresini ac.
+
+## Ekran Goruntusu
+28 (ekran goruntusunu buraya ekle)
