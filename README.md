@@ -5,8 +5,8 @@
 5 Vite + React + TypeScript kullanilarak olusturulmustur.
 6
 7 ## Gelistirici
-8 - **Ad Soyad:** [Kendi Adin]
-9 - **Ogrenci No:** [Numaran]
+8 - **Ad Soyad:** Mirac Doğan
+9 - **Ogrenci No:** 220541018
 10
 11 ## Kullanilan Teknolojiler
 12 - React 18
