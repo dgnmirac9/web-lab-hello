@@ -23,3 +23,4 @@ npm install
 npm run dev
 ```
 Tarayicida http://localhost:5173 adresini ac.
+<img width="1470" height="881" alt="Ekran Resmi 2026-02-17 11 34 37" src="https://github.com/user-attachments/assets/428b8544-58a7-4202-9691-2654e4d3858c" />
