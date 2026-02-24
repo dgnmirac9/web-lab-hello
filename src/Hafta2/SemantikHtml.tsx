@@ -1,4 +1,3 @@
-
 function SemantikHtml(){
     return(
         <>
@@ -24,11 +23,27 @@ function SemantikHtml(){
                          alt="Mirac Dogan'in fotografi" />
                     <figcaption>Mirac Dogan</figcaption>
                 </figure>
+                <p>Firat Universitesi yazilim muhendisligi 3.sinif ogrencisiyim Backend gelistirme ile ilgileniyorum</p>
+                <h3>Kullandigim Teknolojilerin Listesi</h3>
+                <ul>
+                    <li>C# / .NET</li>
+                    <li>PostgreSQL / MSSQL / MYSQL</li>
+                    <li>Docker</li>
+                </ul>
             </section>
             
             <section id = "projeler">
                 <h2>Projelerim</h2>
-                
+                <article>
+                    <h3>Multiplatform Eğitim Sistemi Projesi</h3>
+                    <p>Öğrencilerin rekabet duygusunu ve öğrenme isteğini pekiştiren multiplatform aplikasyon</p>
+                    <p>Web Tasarım ve Fonksiyonel Programlama için yapılacak.</p>
+                    <p>Kullanılması planlanan teknolojiler: .NET Core, SignalR, Redis, PostgreSQL, OpenAI Entegrasyonu, React, Tailwind CSS</p>
+
+                    <h3>CLens Attendance Management</h3>
+                    <p>QR katılımlı ve yüz doğrulamalı yoklama alma projesi</p>
+                    <p>Kullanılan teknolojiler: Flutter, Firebase, Antigravity</p>
+                </article>
             </section>
 
             <section id = "iletisim">
@@ -43,7 +58,7 @@ function SemantikHtml(){
                                    required minLength={2}
                                    aria-describedby="name-error" />
                             <small id="name-error" className="error-msg"
-                                   role="alert"></small> 
+                                   role="alert">Adınızı ve soyadınızı girmeniz zorunludur.</small> 
                         </div>
                         <div className ="form-group">
                             <label htmlFor="subject">Konu:</label>
@@ -65,10 +80,10 @@ function SemantikHtml(){
                                       aria-describedby="message-error">
                             </textarea>
                             <small id="message-error" className="error-msg"
-                                   role="alert"></small> 
+                                   role="alert">Mesajınız en az 10 karakter olmalıdır.</small> 
                         </div>
 
-                        <button type="submit">Gonder</button>
+                        <button type="submit">Gönder</button>
                     </fieldset>
                 </form>
             </section>
@@ -76,6 +91,21 @@ function SemantikHtml(){
 
         <footer>
             <p>&copy; 2026 Mirac Doğan. Tüm haklari saklidir.</p>
+            <div className="social-links">
+                <p>Beni takip edin:</p>
+                <ul>
+                    <li>
+                        <a href="https://github.com/dgnmirac9" target="_blank" rel="noopener noreferrer" aria-label="GitHub profilimi ziyaret et.">
+                            GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/doganmirac" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profilimi ziyaret et.">
+                            LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </footer>
         </>
         
